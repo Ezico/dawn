@@ -168,7 +168,7 @@ i.fas.fa-angle-right{
 
 .bcs_price{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
 }
 .bcs_product_desc span a {
