@@ -372,7 +372,16 @@ p.sumary_item {
 
 
 @media(max-width:760px){
-
+/* announcement bar */
+.content p{
+    font-weight: 700;
+    font-size: 10px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #000000;
+    padding: 12px 0;
+    margin: 0;
+}
   /* product page */
 p.bcs_product_sku {
     font-style: normal;
