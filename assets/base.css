@@ -15,7 +15,10 @@
 }
 
 /* base */ 
- 
+ input, select textarea{
+  -webkit-appearance: none;
+    -webkit-border-radius: 0px;
+ }
 /* custom css */
 .row{
   display: flex;
@@ -505,6 +508,9 @@ img.logo_footer {
     margin-bottom: 10px;
      font-style: normal;
 
+}
+.menu-drawer__menu li{
+  background: white;
 }
 
 
