@@ -382,6 +382,27 @@ p.sumary_item {
     padding: 12px 0;
     margin: 0;
 }
+
+/* header */
+.header__icon .icon {
+    height: 3.1rem!important;
+    width: 3.1rem!important;
+    fill: none;
+    vertical-align: middle;
+}
+
+ .header {
+   
+    position: relative!important;
+}
+svg.icon.icon-cart {
+    width: 45px;
+    padding-top: 10px;
+    position: absolute;
+    right: 10px;
+    top: 0;
+}
+
   /* product page */
 p.bcs_product_sku {
     font-style: normal;
@@ -2832,6 +2853,7 @@ product-info .loading-overlay:not(.hidden) ~ *,
     margin-left: -0.75rem;
   }
 
+ 
   .header__heading,
   .header__heading-link {
     justify-self: start;
@@ -2865,7 +2887,7 @@ product-info .loading-overlay:not(.hidden) ~ *,
 
 .header__icon:not(.header__icon--summary),
 .header__icon span {
-  display: flex;
+  /* display: flex; */
   align-items: center;
   justify-content: center;
 }
@@ -2906,15 +2928,10 @@ product-info .loading-overlay:not(.hidden) ~ *,
   margin-right: -1.2rem;
 }
 
-.header__icon--menu[aria-expanded='true']::before {
-  content: '';
-  top: 100%;
-  left: 0;
-  height: calc(var(--viewport-height, 100vh) - (var(--header-bottom-position, 100%)));
-  width: 100%;
-  display: block;
-  position: absolute;
-  background: rgba(var(--color-foreground), 0.5);
+
+div#menu-drawer {
+    position: absolute;
+    width: 100%;
 }
 
 /* Search */
