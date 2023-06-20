@@ -76,6 +76,7 @@
     box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.05);
     background: #D0B5AA;
     border: 0;
+    -webkit-appearance: none;
     color: white;
     font-weight: 700;
     font-size: 16px;
@@ -242,6 +243,7 @@ span.bcs_shipping_value {
     background: #799889!important;
     box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.05)!important;
     text-transform: uppercase!important;
+    -webkit-appearance: none;
 }
 
 .bcs_atc_btn{
@@ -1994,6 +1996,7 @@ button.shopify-payment-button__button--unbranded {
   font-size: 1.5rem;
   letter-spacing: 0.1rem;
   line-height: calc(1 + 0.2 / var(--font-body-scale));
+  -webkit-appearance: none;
 }
 
 .button--tertiary {
@@ -2214,6 +2217,7 @@ details[open] > .share-button__fallback {
   filter: none;
   min-width: auto;
   min-height: auto;
+  -webkit-appearance: none;
 }
 
 .share-button__fallback .field__input:hover {
@@ -2388,6 +2392,7 @@ details[open] > .share-button__fallback {
 
 .field__input,
 .customer .field input {
+  -webkit-appearance: none;
   flex-grow: 1;
   text-align: left;
   padding: 1.5rem;
@@ -2419,6 +2424,7 @@ details[open] > .share-button__fallback {
   top: calc(var(--inputs-border-width) + 0.5rem);
   left: calc(var(--inputs-border-width) + 2rem);
   letter-spacing: 0.04rem;
+  -webkit-appearance: none;
 }
 
 .field__input:focus,
@@ -2429,6 +2435,7 @@ details[open] > .share-button__fallback {
 .customer .field input:-webkit-autofill {
   padding: 2.2rem 1.5rem 0.8rem 2rem;
   margin: var(--inputs-border-width);
+  -webkit-appearance: none;
 }
 
 .field__input::-webkit-search-cancel-button,
@@ -2456,6 +2463,7 @@ details[open] > .share-button__fallback {
   right: 0;
   top: 0;
   width: 4.4rem;
+  -webkit-appearance: none;
 }
 
 .field__button > svg {
@@ -2482,6 +2490,7 @@ details[open] > .share-button__fallback {
 input[type='checkbox'] {
   display: inline-block;
   width: auto;
+  -webkit-appearance: none;
   margin-right: 0.5rem;
 }
 
