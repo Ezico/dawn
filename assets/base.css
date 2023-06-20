@@ -421,6 +421,8 @@ p.mum_sqd_sub_title {
     line-height: 22px;
     color: #B0B0B0;
     padding: 12px;
+    -webkit-appearance: none;
+    -webkit-border-radius: 0px;
 }
 input[type="submit"] {
     font-weight: 700;
@@ -432,11 +434,13 @@ input[type="submit"] {
     text-align: center;
     text-transform: uppercase;
     padding: 16px 34px;
+    -webkit-appearance: none;
+    -webkit-border-radius: 0px;
     background: #799889;
     box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.05);
 }
 select#interest {
-    padding: 14px;
+    padding: 12px;
 }
 
 /* footer  */
