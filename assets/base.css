@@ -2924,7 +2924,7 @@ product-info .loading-overlay:not(.hidden) ~ *,
 .header__icon--cart .icon {
   height: 5rem;
   width: 5rem;
-  padding: 0;
+  padding-left: 10px;
 }
 
 .header__icon--cart {
