@@ -396,12 +396,14 @@ p.sumary_item {
     position: relative!important;
 }
 svg.icon.icon-cart {
-    width: 45px;
+    width: 37px;
     padding-top: 10px;
     position: absolute;
     right: 10px;
     top: 0;
 }
+
+
 
   /* product page */
 p.bcs_product_sku {
@@ -2572,7 +2574,9 @@ product-info .loading-overlay:not(.hidden) ~ *,
   align-items: center;
   font-size: 0.9rem;
   bottom: 0.8rem;
-  left: -0.8rem;
+  right: 37px;
+    top: 10px;
+    left: unset;
   line-height: calc(1 + 0.1 / var(--font-body-scale));
 }
 
@@ -2918,8 +2922,8 @@ product-info .loading-overlay:not(.hidden) ~ *,
 
 .header__icon,
 .header__icon--cart .icon {
-  height: 2rem;
-  width: 2rem;
+  height: 5rem;
+  width: 5rem;
   padding: 0;
 }
 
@@ -2932,6 +2936,7 @@ product-info .loading-overlay:not(.hidden) ~ *,
 div#menu-drawer {
     position: absolute;
     width: 100%;
+    left: 0;
 }
 
 /* Search */
