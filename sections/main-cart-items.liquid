@@ -26,6 +26,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+   flex-wrap: wrap;
 }
   .section-{{ section.id }}-padding {
     padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
