@@ -104,6 +104,10 @@ h1.collection-hero__title {
     color: #000;
     font-family: Cormorant;
 }
+  .facets-container.scroll-trigger.animate--fade-in {
+    border: 0;
+    padding: 20px 0;
+}
   .collection-hero__image-container {
     height: 20rem;
   }
