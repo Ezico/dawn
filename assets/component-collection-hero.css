@@ -13,6 +13,7 @@
     padding: calc(4rem + var(--page-width-margin)) 0 calc(4rem + var(--page-width-margin));
     overflow: hidden;
   }
+  
 
   .collection-hero--with-image .collection-hero__inner {
     padding-bottom: 0;
@@ -96,6 +97,13 @@ h1.collection-hero__title {
 }
 
 @media screen and (max-width: 749px) {
+  h1.collection-hero__title {
+    font-weight: 700;
+    font-size: 24px;
+    text-transform: uppercase;
+    color: #000;
+    font-family: Cormorant;
+}
   .collection-hero__image-container {
     height: 20rem;
   }
