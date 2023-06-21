@@ -36,7 +36,25 @@
 }
 
 .collection-hero__title {
-  margin: 2.5rem 0;
+  margin: 0;
+}
+
+/* custom css  */
+.collection_header.two-col {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  border: 1px solid #e7e7e7;
+  padding: 15px 20px;
+  justify-content: space-between;
+}
+h1.collection-hero__title {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 39px;
+  text-transform: uppercase;
+  color: #000000;
+  font-family: 'Cormorant';
 }
 
 .collection-hero__title + .collection-hero__description {
@@ -53,9 +71,9 @@
     margin-bottom: 2rem;
   }
 
-  .collection-hero__description {
+  /* .collection-hero__description {
     max-width: 66.67%;
-  }
+  } */
 
   .collection-hero--with-image .collection-hero__description {
     max-width: 100%;
