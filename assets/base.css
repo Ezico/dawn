@@ -546,8 +546,8 @@ img.logo_footer {
 }
 
 .facets-container.scroll-trigger.animate--fade-in {
-    border: none;
-    padding: 14px 0;
+    border: none!important;
+    padding: 14px 0!important;
 }
 .full-unstyled-link {
     font-size: 14px!important;
