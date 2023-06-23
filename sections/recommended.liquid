@@ -138,8 +138,22 @@
   infinite: true,
   slidesToShow: 4,
   slidesToScroll: 1,
-  prevArrow: '<img style="top:-91px; right:75px" src="https://cdn.shopify.com/s/files/1/0779/1745/4639/files/left.png">',
-  nextArrow: '<img style="top:-91px;right:0" src="https://cdn.shopify.com/s/files/1/0779/1745/4639/files/right.png">'
+  prevArrow: '<img class="nav-left" style="top:-91px; right:75px" src="https://cdn.shopify.com/s/files/1/0779/1745/4639/files/left.png">',
+  nextArrow: '<img class="nav-right" style="top:-91px;right:0" src="https://cdn.shopify.com/s/files/1/0779/1745/4639/files/right.png">',
+   responsive: [
+      {
+        breakpoint: 991,
+        settings: {
+          slidesToShow: 3,
+        }
+      },
+      {
+        breakpoint: 767,
+        settings: {
+          slidesToShow: 2,
+        }
+      }
+    ]
 });
   {% endjavascript %}
   {% schema %}
