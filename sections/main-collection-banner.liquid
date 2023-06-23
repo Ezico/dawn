@@ -68,10 +68,12 @@
       </div>
       
         
-      {%- if section.settings.show_collection_description -%}
-        <div
+      {% if collection.description %}
+      <div
           class="collection-hero__description rte small-hide medium-hide">{{ collection.description }}</div>
-      {%- endif -%}
+        {% else %}
+          <br/>
+        {% endif %}
     </div>
     
 

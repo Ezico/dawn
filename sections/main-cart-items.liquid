@@ -44,7 +44,8 @@
   <script src="{{ 'cart.js' | asset_url }}" defer="defer"></script>
 {%- endunless -%}
 
-<cart-items class="page-width{% if cart == empty %} is-empty{% else %} section-{{ section.id }}-padding{% endif %}">
+
+<cart-items class="page-width section-{{ section.id }}-padding">
 
     <div class='row' style="align-items: inherit;">
         <div class='cart_details'>
@@ -59,7 +60,17 @@
         <form action="{{ routes.cart_url }}" class="cart__contents critical-hidden" method="post" id="cart">
           <div class="cart__items" id="main-cart-items" data-id="{{ section.id }}">
             <div class="js-contents">
-              {%- if cart != empty -%}
+             {%- if cart.item_count < 1 -%}
+             <br/>
+                
+                <center>
+                   <h1 class="cart__empty-tet">Your cart is empty</h1>
+                  <a href="/" class="button">
+                  {{ 'general.continue_shopping' | t }}
+                </a>
+                </center>
+                
+              {% else %}
                 <table class="cart-items">
                   <caption class="visually-hidden">
                     {{ 'sections.cart.title' | t }}
