@@ -315,8 +315,8 @@ span.bcpo-value {
     display: none;
 }
 
-.related_products h2{
-    font-size: 35px!important;
+.related-products h2{
+    font-size: 35px;
     font-family: Cormorant;
     font-weight: 700;
     text-transform: uppercase;
@@ -548,7 +548,6 @@ img.logo_footer {
 }
 @media(max-width:950px){
 /* announcement bar */
-
 .mobile-facets__wrapper {
     display: flex;
     border: 1px solid #D2D2D2;
@@ -578,7 +577,7 @@ img.logo_footer {
     padding: 14px 0!important;
 }
 .full-unstyled-link {
-    font-size: 14px!important;
+    font-size: 13px!important;
     line-height: 19px!Important;
 }
 .price .price-item {
@@ -702,6 +701,26 @@ p.bcs_product_sku {
     font-weight: 400;
     font-size: 14px;
     line-height: 19px;
+}
+.image_container {
+    height: 140px;
+    background-size: cover;
+}
+.related-products h2{
+    font-size: 20px;
+    font-family: Cormorant;
+    font-weight: 700;
+    width: 160px;
+}
+.slick-arrow {
+    position: absolute;
+    top: 50%;
+    z-index: 50;
+    margin-top: -12px;
+    width: 32px;
+}
+img.nav-left.slick-arrow {
+    right: 45px!important;
 }
 h2.bcs_product_title {
     font-weight: 700;
