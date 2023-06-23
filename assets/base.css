@@ -13,6 +13,14 @@
   --ff-Cormorant: font-family:'Cormorant'
   --ff-Nunito: font-family:'Nunito'
 }
+.rel_pro.slick-slide {
+    margin: 10px;
+    position: relative;
+}
+.image_container {
+    height: 300px;
+    background-size: cover;
+}
 
 /* base */ 
  input, select textarea{
@@ -228,6 +236,11 @@ span.bcs_shipping_value {
     color: #000000;
     margin-left: 15px;
 }
+.image_container.slick-slide {
+    height: 550px;
+    background-size: cover;
+    background-position: center center;
+}
 
 .product-form__submit{
   font-weight: 900;
@@ -302,8 +315,23 @@ span.bcpo-value {
     display: none;
 }
 
+.related_products h2{
+    font-size: 35px!important;
+    font-family: Cormorant;
+    font-weight: 700;
+    text-transform: uppercase;
+}
 
 /* cart page css */
+
+.cart_details{
+  width: 100%;
+}
+
+.cart_container{
+  display: flex;
+}
+
 .summary-container {
     background: #F7EDEA;
 }
@@ -2590,7 +2618,7 @@ details[open] > .share-button__fallback {
 input[type='checkbox'] {
   display: inline-block;
   width: auto;
-  -webkit-appearance: none;
+  -webkit-appearance: auto;
   margin-right: 0.5rem;
 }
 
