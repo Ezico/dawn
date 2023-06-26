@@ -839,6 +839,14 @@ img.collection_img {
 
 
 
+.facets__summary span {
+    transition: text-decoration var(--duration-short) ease;
+  font-size: 16px;
+font-family: Nunito;
+font-weight: 600;
+text-transform: uppercase;
+}
+
 
 
 
